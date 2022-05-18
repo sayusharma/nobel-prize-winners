@@ -1,0 +1,63 @@
+.main-body{
+    margin: 0.5rem 2.5rem;
+}
+.faded{
+    filter: blur(5px);
+}
+.arrow-right{
+    border-radius: 18px;
+    border: none;
+    height: 36px;
+    width: 36px;
+    background-color: rgb(34, 127, 208);
+    color: white;
+    cursor: pointer;
+}
+.arrow-right:focus{
+    outline: none;
+    background-color: rgb(28, 117, 195);
+}
+.arrow-left{
+    border-radius: 18px;
+    border: none;
+    height: 36px;
+    width: 36px;
+    background-color: rgb(101, 139, 227);
+    color: white;
+    cursor: pointer;
+}
+.arrow-left:focus{
+    outline: none;
+    background-color: rgb(77, 121, 223);
+}
+.animation-container{
+    width:400px;
+    height:auto;
+    position:absolute;
+    z-index:1000;
+    top:197px;
+    left:295px;
+}
+.form-container{
+    position:absolute;
+    background:rgb(249, 249, 249);
+    width:100%;
+    padding:1rem;
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    box-shadow: 2px 2px rgb(240, 237, 237);
+}
+.or{
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+
+.btn-container{
+    background:none;
+    cursor:pointer;
+    border:none;
+}
+.btn-container:focus{
+    outline: none;
+}
+
