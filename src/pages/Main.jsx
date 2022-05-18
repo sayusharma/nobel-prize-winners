@@ -223,6 +223,7 @@ function Main() {
     const resetTable = ()=>{
         document.getElementById('#search').value = '';
         setCurrentdata(data);
+        setPage(0);
         setPages(Math.floor(data.length / perPage));
     }
 
